@@ -22,7 +22,7 @@ nav .active li {
 
 @media screen and (max-width: 665px) {
   nav .active li {
-    color: white;
+    color: rgb(178, 201, 245);
     font-weight: 600;
     text-decoration: 1px underline white;
   }

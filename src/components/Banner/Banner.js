@@ -90,11 +90,13 @@ const Banner = () => {
                       cursor: "pointer",
                       fontSize: "12px",
                     }
+                    
               }
             >
               0{i + 1}
             </div>
           ),
+          
         },
       },
     ],
@@ -113,6 +115,25 @@ const Banner = () => {
           </div>
         </Link>
         <Link to="/offer">
+          <div>
+            <Image imgSrc={bannerImgThree} />
+          </div>
+        </Link>
+        <Link to="/offer">
+          <div>
+            <Image imgSrc={bannerImgThree} />
+          </div>
+        </Link>
+        <Link to="/offer">
+          <div>
+            <Image imgSrc={bannerImgThree} />
+          </div>
+        </Link>   <Link to="/offer">
+          <div>
+            <Image imgSrc={bannerImgThree} />
+          </div>
+        </Link>  
+         <Link to="/offer">
           <div>
             <Image imgSrc={bannerImgThree} />
           </div>
