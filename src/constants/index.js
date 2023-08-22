@@ -17,12 +17,12 @@ import {
 export const navBarList = [
   {
     _id: 1001,
-    title: "Home",
+    title: "Inicio",
     link: "/",
   },
   {
     _id: 1002,
-    title: "Shop",
+    title: "Tienda",
     link: "/shop",
   },
   {
@@ -32,7 +32,7 @@ export const navBarList = [
   },
   {
     _id: 1004,
-    title: "Contact",
+    title: "Contacto",
     link: "contact",
   },
   {
@@ -74,7 +74,7 @@ export const SplOfferData = [
   {
     _id: "204",
     img: spfFour,
-    productName: "Sun glasses",
+    productName: "gafas",
     price: "220.00",
     color: "Black",
     badge: true,
