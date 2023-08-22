@@ -49,6 +49,50 @@ const BestSellers = () => {
           badge={false}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
+         <Product
+          _id="1015"
+          img={bestSellerFour}
+          productName="Travel Bag"
+          price="220.00"
+          color="Black"
+          badge={false}
+          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+        />
+         <Product
+          _id="1016"
+          img={bestSellerFour}
+          productName="Travel Bag"
+          price="220.00"
+          color="Black"
+          badge={false}
+          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+        /> <Product
+        _id="1017"
+        img={bestSellerFour}
+        productName="Travel Bag"
+        price="220.00"
+        color="Black"
+        badge={false}
+        des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+      />
+       <Product
+          _id="1018"
+          img={bestSellerFour}
+          productName="Travel Bag"
+          price="220.00"
+          color="Black"
+          badge={false}
+          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+        />
+         <Product
+          _id="1019"
+          img={bestSellerFour}
+          productName="Travel Bag"
+          price="220.00"
+          color="Black"
+          badge={false}
+          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+        />
       </div>
     </div>
   );
