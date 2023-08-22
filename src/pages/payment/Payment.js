@@ -10,7 +10,7 @@ const Payment = () => {
         <p>Payment gateway only applicable for Production build.</p>
         <Link to="/">
           <button className="w-52 h-10 bg-primeColor text-white text-lg mt-4 hover:bg-black duration-300">
-            Explore More
+            ver mas 
           </button>
         </Link>
       </div>

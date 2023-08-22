@@ -76,7 +76,7 @@ const Contact = () => {
           <div className="w-[500px] h-auto py-6 flex flex-col gap-6">
             <div>
               <p className="text-base font-titleFont font-semibold px-2">
-                Name
+                nombre
               </p>
               <input
                 onChange={handleName}
@@ -94,7 +94,7 @@ const Contact = () => {
             </div>
             <div>
               <p className="text-base font-titleFont font-semibold px-2">
-                Email
+                correo
               </p>
               <input
                 onChange={handleEmail}
@@ -112,7 +112,7 @@ const Contact = () => {
             </div>
             <div>
               <p className="text-base font-titleFont font-semibold px-2">
-                Messages
+                MENSAJE
               </p>
               <textarea
                 onChange={handleMessages}
