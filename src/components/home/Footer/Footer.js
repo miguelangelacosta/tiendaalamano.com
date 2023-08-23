@@ -28,13 +28,16 @@ const Footer = () => {
     }
   };
   return (
-    <div className="w-full bg-[#F5F5F3] py-20">
-      <div className="max-w-container mx-auto grid grid-cols-1 md:grid-cols-2  xl:grid-cols-6 px-4 gap-10">
+    <div className="w-full bg-[#F5F5F3] py-10">
+      <div className="max-w-container mx-auto grid grid-cols-1 md:grid-cols-2  xl:grid-cols-6 px-4 gap-14">
         <div className="col-span-2">
           <FooterListTitle title=" Mas sobre Tienda ala mano" />
           <div className="flex flex-col gap-6">
             <p className="text-base w-full xl:w-[80%]">
-            Ser reconocidos como la principal opción para satisfacer las necesidades y deseos de nuestros clientes a través de productos de alta calidad y un servicio excepcional. Nos esforzamos por ser líderes en la industria, siendo conocidos por nuestra variedad, innovación y compromiso con la satisfacción del cliente.
+            Ser reconocidos como la principal opción para satisfacerlasnecesidades y 
+            deseos de nuestros clientes a través de productos de alta calidad y 
+            unservicio excepcional. Nos esforzamos por ser líderes en la industria,
+             siendo conocidos por nuestra variedad, innovación y compromiso con la satisfacción del cliente.
             </p>
             <ul className="flex items-center gap-2">
               <a
@@ -64,8 +67,7 @@ const Footer = () => {
                   <FaFacebook />
                 </li>
               </a>
-              <a
-                href="#"
+              <a href="#"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -101,7 +103,9 @@ const Footer = () => {
           <ul className="flex flex-col gap-4">
             <li></li>
             <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-            
+            pagos contra entrega  
+            tomele  captura de pantalla alos productos en el carrito de compras  alos producos y el valor total 
+
             </li>
           </ul>
         </div>

@@ -6,6 +6,7 @@ import {
   Route,
   ScrollRestoration,
 } from "react-router-dom";
+import {Analytics }  from '@vercel/analytics/react';
 import Footer from "./components/home/Footer/Footer";
 import FooterBottom from "./components/home/Footer/FooterBottom";
 import Header from "./components/home/Header/Header";
@@ -23,9 +24,12 @@ import Payment from "./pages/payment/Payment";
 import ProductDetails from "./pages/ProductDetails/ProductDetails";
 import Shop from "./pages/Shop/Shop";
 
+
+
 const Layout = () => {
   return (
     <div>
+       <Analytics />
       <Header />
       <HeaderBottom />
       <SpecialCase />
