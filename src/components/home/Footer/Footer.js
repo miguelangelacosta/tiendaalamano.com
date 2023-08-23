@@ -98,16 +98,14 @@ const Footer = () => {
         </div>
         <div>
           <FooterListTitle title="metodos de pago" />
-          <ul className="flex flex-col gap-2">
+          <ul className="flex flex-col gap-4">
+            <li></li>
             <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              manejamos solo pago contra entrega por  segurida y garantia 
-              para realizar pedido toma una cactura de pantalla al carrito con los 
-              productos elejidos y el cobro total  envialo al siguiente correo miguelangelortizacosta123@gmail.com
-              o al 3175533775
+            
             </li>
           </ul>
         </div>
-        <div className="col-span-2 flex flex-col items-center w-full px-4">
+        <div className="col-span-6 flex flex-col items-center w-full px-4">
           <FooterListTitle title="Subscribe to our newsletter." />
           <div className="w-full">
             <p className="text-center mb-4">
