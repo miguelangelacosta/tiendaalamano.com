@@ -1,28 +1,27 @@
-import React, { useEffect, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
-import Breadcrumbs from "../../components/pageProps/Breadcrumbs";
+import React from "react";
+import { Link } from "react-router-dom";
+import Breadcrumbs from "../../components/pageProps/Breadcrumbs"; // Ajusta la ruta de importación según tu estructura
 
 const Journal = () => {
-  const location = useLocation();
-  const [prevLocation, setPrevLocation] = useState("");
-  useEffect(() => {
-    setPrevLocation(location.state.data);
-  }, [location]);
+  const categories = [
+    { id: "travel", name: "Travel" },
+    { id: "food", name: "Food" },
+    { id: "fitness", name: "Fitness" },
+    // Agrega más categorías según sea necesario
+  ];
+
   return (
-    <div className="max-w-container mx-auto px-4">
-      <Breadcrumbs title="Journals" prevLocation={prevLocation} />
-      <div className="pb-10">
-        <h1 className="max-w-[600px] text-base text-lightText mb-2">
-          <span className="text-primeColor font-semibold text-lg">tienda ala mano </span>{" "}
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-          reiciendis delectus vitae, aliquid sit iure dolorum commodi eum
-          numquam voluptate!
-        </h1>
-        <Link to="/shop">
-          <button className="w-52 h-10 bg-primeColor text-white hover:bg-black duration-300">
-            continuar comprando 
-          </button>
-        </Link>
+    <div>
+      <Breadcrumbs title="Journal" />
+      <div>
+        <h2>Categories</h2>
+        <ul>
+          {categories.map((category) => (
+            <li key={category.id}>
+              <Link to={`/journal/${category.id}`}>{category.name}</Link>
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );

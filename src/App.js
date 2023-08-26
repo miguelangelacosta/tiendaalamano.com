@@ -26,9 +26,11 @@ import Shop from "./pages/Shop/Shop";
 
 
 
+
 const Layout = () => {
   return (
     <div>
+          
        <Analytics />
       <Header />
       <HeaderBottom />

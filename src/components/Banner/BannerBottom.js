@@ -8,7 +8,7 @@ const BannerBottom = () => {
       <div className="max-w-container mx-auto h-20 flex flex-col md:flex-row justify-between items-center">
         <div className="flex items-center gap-2 w-72 shadow-sm hover:shadow-md duration-300">
           <span className="font-bold font-titleFont w-6 text-center">contacto </span> 
-          <p className="text-lightText text-base">(#262626)</p>
+          <p className="text-lightText text-base">()</p>
         </div>
         <div className="flex md:w-auto items-center gap-2 w-72 shadow-sm hover:shadow-md duration-300">
           <span className="text-xl text-center w-6 ml-1">

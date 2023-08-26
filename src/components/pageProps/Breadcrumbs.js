@@ -2,11 +2,17 @@ import React, { useEffect, useState } from "react";
 import { HiOutlineChevronRight } from "react-icons/hi";
 import { useLocation } from "react-router-dom";
 
-const Breadcrumbs = ({ prevLocation, title }) => {
+const Breadcrumbs = ({ title }) => {
   const location = useLocation();
+  const [prevLocation, setPrevLocation] = useState("");
   const [locationPath, setLocationPath] = useState("");
+
   useEffect(() => {
-    setLocationPath(location.pathname.split("/")[1]);
+    const pathSegments = location.pathname.split("/");
+    if (pathSegments.length > 1) {
+      setPrevLocation(pathSegments[pathSegments.length - 2]);
+    }
+    setLocationPath(pathSegments[pathSegments.length - 1]);
   }, [location]);
 
   return (
@@ -15,8 +21,7 @@ const Breadcrumbs = ({ prevLocation, title }) => {
         {title}
       </h1>
       <p className="text-sm font-normal text-lightText capitalize flex items-center">
-        <span> {prevLocation === "" ? "Home" : prevLocation}</span>
-
+        <span>{prevLocation === "" ? "Home" : prevLocation}</span>
         <span className="px-1">
           <HiOutlineChevronRight />
         </span>
@@ -29,3 +34,4 @@ const Breadcrumbs = ({ prevLocation, title }) => {
 };
 
 export default Breadcrumbs;
+
